@@ -16,6 +16,7 @@ class FollowerListVC: UIViewController {
         view.backgroundColor = .systemBackground
         navigationController?.navigationBar.prefersLargeTitles = true
         
+        // Refactored to complete network call with Result type
         NetworkManager.shared.getFollowers(for: username, page: 1) { result in
             switch result {
             case .success(let followers):
