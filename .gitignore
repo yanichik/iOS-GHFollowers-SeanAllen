@@ -32,3 +32,6 @@ WorldTrotter_Solutions*
 
 # Ignore Playground
 MyPlayground.playground
+
+# Ignore out of order file
+GHFollowers_OutOfOrder*
